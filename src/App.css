@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -19,4 +20,21 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.right-drop-zone {
+  float: right;
+}
+
+.main-content {
+  width: 68vw;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.content-container {
+  display:flex;
+  justify-content: space-between;
 }

@@ -1,0 +1,26 @@
+.drop-zone {
+    padding-top: 2%;
+    width: 15vw;
+    height:100vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dropHovering {
+    border-style: dashed;
+    border-color: rgb(222, 189, 247);;
+    border-width: 0px 2px 2px 2px;
+}
+
+
+.right {
+   justify-self:flex-end;
+}
+
+
+.left {
+    justify-self:flex-start;
+ }
